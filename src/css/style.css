@@ -596,16 +596,16 @@ video {
   left: 0px;
 }
 
+.left-\[20px\]{
+  left: 20px;
+}
+
 .left-\[50\%\]{
   left: 50%;
 }
 
-.left-\[550px\]{
-  left: 550px;
-}
-
-.right-0{
-  right: 0px;
+.right-\[20px\]{
+  right: 20px;
 }
 
 .top-0{
@@ -616,16 +616,20 @@ video {
   top: -300%;
 }
 
-.top-\[24\%\]{
-  top: 24%;
-}
-
-.top-\[40\%\]{
-  top: 40%;
+.top-\[45\%\]{
+  top: 45%;
 }
 
 .top-\[55\%\]{
   top: 55%;
+}
+
+.top-\[67\%\]{
+  top: 67%;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .mx-auto{
@@ -645,16 +649,16 @@ video {
   margin-bottom: 30px;
 }
 
-.mb-\[50px\]{
-  margin-bottom: 50px;
+.mr-\[15px\]{
+  margin-right: 15px;
 }
 
-.ml-\[30px\]{
-  margin-left: 30px;
+.mr-\[20px\]{
+  margin-right: 20px;
 }
 
-.mr-\[30px\]{
-  margin-right: 30px;
+.mt-\[100px\]{
+  margin-top: 100px;
 }
 
 .block{
@@ -673,6 +677,22 @@ video {
   height: 50px;
 }
 
+.w-\[15px\]{
+  width: 15px;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[20\]{
+  width: 20;
+}
+
+.w-\[250px\]{
+  width: 250px;
+}
+
 .w-\[50px\]{
   width: 50px;
 }
@@ -683,14 +703,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.max-w-\[250px\]{
-  max-width: 250px;
-}
-
-.max-w-\[330px\]{
-  max-width: 330px;
 }
 
 .max-w-\[500px\]{
@@ -718,6 +730,10 @@ video {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -728,6 +744,10 @@ video {
 
 .gap-\[16px\]{
   gap: 16px;
+}
+
+.gap-\[25px\]{
+  gap: 25px;
 }
 
 .rounded-\[20px\]{
@@ -744,21 +764,6 @@ video {
 
 .rounded-full{
   border-radius: 9999px;
-}
-
-.rounded-b-full{
-  border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
-.rounded-b-\[100px\]{
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-}
-
-.rounded-b-\[22\%\]{
-  border-bottom-right-radius: 22%;
-  border-bottom-left-radius: 22%;
 }
 
 .border-2{
@@ -795,18 +800,22 @@ video {
   background-color: rgb(234 89 114 / var(--tw-bg-opacity));
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-brightRedSupLight{
   --tw-bg-opacity: 1;
   background-color: rgb(255 242 225 / var(--tw-bg-opacity));
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-\[0\.8\]{
   --tw-bg-opacity: 0.8;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .p-6{
@@ -841,6 +850,11 @@ video {
   padding-bottom: 11px;
 }
 
+.py-\[18px\]{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .py-\[20px\]{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -849,10 +863,6 @@ video {
 .py-\[9px\]{
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.pb-\[450px\]{
-  padding-bottom: 450px;
 }
 
 .pl-\[28px\]{
@@ -867,12 +877,16 @@ video {
   padding-top: 6rem;
 }
 
-.pt-\[160px\]{
-  padding-top: 160px;
+.pt-\[120px\]{
+  padding-top: 120px;
 }
 
-.pb-\[200px\]{
-  padding-bottom: 200px;
+.text-center{
+  text-align: center;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
 }
 
 .text-\[15px\]{
@@ -883,16 +897,8 @@ video {
   font-size: 17px;
 }
 
-.text-\[18px\]{
-  font-size: 18px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
-}
-
-.text-\[60px\]{
-  font-size: 60px;
+.text-\[30px\]{
+  font-size: 30px;
 }
 
 .font-medium{
@@ -911,8 +917,8 @@ video {
   line-height: 160%;
 }
 
-.leading-\[80px\]{
-  line-height: 80px;
+.leading-\[45px\]{
+  line-height: 45px;
 }
 
 .text-black{
@@ -982,8 +988,8 @@ img {
   top: 0px;
   left: 5px;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   background-image: url("../../src/icons/square.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -1047,10 +1053,36 @@ img {
 }
 
 #home {
-  background-image: url("../../src/images/female.png");
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 85%, 79% 92%, 51% 97%, 24% 92%, 0 84%, 0% 35%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 85%, 79% 92%, 51% 97%, 24% 92%, 0 84%, 0% 35%, 0 0);
+}
+
+.home__container {
+  max-width: 500px;
+  width: 100%;
+  height: 800px;
+  background-image: url("../../src/images/woman.png");
   background-repeat: no-repeat;
-  background-position: right 90px;
-  background-size: 900px;
+  background-position: center 0;
+  background-size: 700px;
+}
+
+@media screen and (max-width: 976px) {
+  #home {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .home__container {
+    background-position: center 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home__container {
+    background-size: 500px;
+    height: 600px;
+  }
 }
 
 .hover\:bg-black:hover{
@@ -1082,6 +1114,60 @@ img {
   outline-offset: 2px;
 }
 
+@media (min-width: 480px){
+  .sm\:left-\[15\%\]{
+    left: 15%;
+  }
+
+  .sm\:mb-\[30px\]{
+    margin-bottom: 30px;
+  }
+
+  .sm\:mb-\[50px\]{
+    margin-bottom: 50px;
+  }
+
+  .sm\:mr-\[30px\]{
+    margin-right: 30px;
+  }
+
+  .sm\:mt-0{
+    margin-top: 0px;
+  }
+
+  .sm\:w-\[250px\]{
+    width: 250px;
+  }
+
+  .sm\:w-\[330px\]{
+    width: 330px;
+  }
+
+  .sm\:w-\[45px\]{
+    width: 45px;
+  }
+
+  .sm\:w-\[50px\]{
+    width: 50px;
+  }
+
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
+  .sm\:text-\[15px\]{
+    font-size: 15px;
+  }
+
+  .sm\:text-\[18px\]{
+    font-size: 18px;
+  }
+
+  .sm\:text-\[40px\]{
+    font-size: 40px;
+  }
+}
+
 @media (min-width: 768px){
   .md\:relative{
     position: relative;
@@ -1097,6 +1183,10 @@ img {
 
   .md\:mr-5{
     margin-right: 1.25rem;
+  }
+
+  .md\:mr-\[30px\]{
+    margin-right: 30px;
   }
 
   .md\:hidden{
@@ -1121,8 +1211,32 @@ img {
     padding-right: 35px;
   }
 
+  .md\:pt-\[180px\]{
+    padding-top: 180px;
+  }
+
+  .md\:text-\[15px\]{
+    font-size: 15px;
+  }
+
   .md\:text-\[16px\]{
     font-size: 16px;
+  }
+
+  .md\:text-\[18px\]{
+    font-size: 18px;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .md\:text-\[60px\]{
+    font-size: 60px;
+  }
+
+  .md\:leading-\[70px\]{
+    line-height: 70px;
   }
 }
 
@@ -1147,5 +1261,40 @@ img {
   .lg\:py-\[9px\]{
     padding-top: 9px;
     padding-bottom: 9px;
+  }
+}
+
+@media (min-width: 1020px){
+  .xl\:left-\[580px\]{
+    left: 580px;
+  }
+
+  .xl\:top-\[31\%\]{
+    top: 31%;
+  }
+
+  .xl\:top-\[50\%\]{
+    top: 50%;
+  }
+
+  .xl\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:flex-row{
+    flex-direction: row;
+  }
+
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .xl\:text-left{
+    text-align: left;
   }
 }
