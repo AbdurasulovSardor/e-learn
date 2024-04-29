@@ -7,9 +7,9 @@
     <title>E-Learn</title>
   </head>
   <body>
-    <header class="fixed w-full left-0 top-0 bg-brightRedSupLight">
+    <header class="fixed w-full left-0 top-0 bg-brightRedSupLight z-20">
       <nav class="container flex items-center justify-between mx-auto p-6">
-        <a class="header-logo relative p-6" href="#">
+        <a class="header-logo relative p-4" href="#">
           <img src="src/icons/logo.svg" alt="logo" width="100" height="40" />
         </a>
 
@@ -49,59 +49,62 @@
     </header>
 
     <main>
-      <section id="home" class="pt-24 bg-brightRedSupLight rounded-b-[22%]">
-        <div class="container mx-auto px-6 relative">
-          <div class="pt-[160px] pb-[200px]">
-            <h1 class="max-w-[750px] font-semibold text-[60px] leading-[80px] text-titleColor mb-[30px]">
+      <section id="home" class="pt-24 bg-brightRedSupLight">
+        <div
+          class="container mx-auto px-6 relative flex flex-col items-center justify-between xl:flex-row xl:items-start">
+          <div class="pt-[120px] text-center xl:text-left md:pt-[180px]">
+            <h1
+              class="max-w-[750px] font-semibold text-titleColor text-[30px] leading-[45px] mb-[20px] mx-auto xl:mx-0 md:leading-[70px] md:text-[60px] sm:text-[40px] sm:mb-[30px]">
               Learn New Skill Gain More <span>Education</span>
             </h1>
-            <p class="max-w-[500px] font-normal text-[20px] text-descriptionColor leading-[160%] mb-[50px]">
+            <p
+              class="max-w-[500px] font-normal text-descriptionColor leading-[160%] mb-[30px] text-[15px] mx-auto xl:mx-0 md:text-[20px] sm:text-[18px] sm:mb-[50px]">
               eLearn is an interesting platform that will teach you in more an interactive way
             </p>
-            <div class="flex">
+            <div class="flex justify-center items-center flex-col gap-[25px] sm:flex-row xl:justify-start">
               <a href="#"
-                class="font-semibold text-[15px] text-white py-[20px] px-[35px] bg-brightRed rounded-[80px] border-2 border-brightRed hover:bg-transparent hover:text-brightRed duration-200">
+                class="font-semibold text-[12px] text-white py-[18px] px-[35px] bg-brightRed rounded-[80px] border-2 border-brightRed hover:bg-transparent hover:text-brightRed duration-200 md:text-[15px]">
                 Join for free
               </a>
-              <a href="#" class="flex items-center ml-[30px] font-normal text-[18px] text-titleColor">
-                <img class="w-[60px] py-[20px] pl-[28px] pr-[18px] rounded-full bg-white mr-[30px]"
+              <a href="#" class="flex items-center font-normal text-[12px] text-titleColor md:text-[18px]">
+                <img class="w-[60px] py-[20px] pl-[28px] pr-[18px] rounded-full bg-white mr-[15px] md:mr-[30px]"
                   src="src/icons/pause.svg" alt="icon" />
                 Watch how it works
               </a>
             </div>
           </div>
 
-          <div>
+          <div class="home__container mt-[100px] sm:mt-0">
             <div
-              class="max-w-[250px] flex items-center bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[24%] left-[550px]">
-              <div class="w-[50px] p-[11px] rounded-[8px] bg-[#23BDEE] mr-[30px]">
-                <img src="src/icons/calendar.svg" alt="calendar" />
+              class="w-[200px] flex items-center bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[45%] left-[20px] sm:left-[15%] sm:w-[250px] xl:top-[31%] xl:left-[580px]">
+              <div class="w-[20] sm:w-[50px] p-[11px] rounded-[8px] bg-[#23BDEE] mr-[15px] sm:mr-[30px]">
+                <img class="w-[15px] sm:w-[45px]" src="src/icons/calendar.svg" alt="calendar" />
               </div>
               <div class="text-descriptionColor">
                 <h5 class="font-semibold text-[17px]">250k</h5>
-                <p class="font-medium text-[15px]">Assisted Student</p>
+                <p class="font-medium text-[12px] sm:text-[15px]">Assisted Student</p>
               </div>
             </div>
 
             <div
-              class="max-w-[330px] flex items-center bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[40%] right-0">
-              <div class="w-[50px] p-[11px] rounded-[8px] bg-[#F88C3D] mr-[30px]">
+              class="w-[250px] sm:w-[330px] flex items-center bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[55%] right-[20px] xl:top-[50%]">
+              <div class="w-[50px] p-[11px] rounded-[8px] bg-[#F88C3D] mr-[20px] sm:mr-[30px]">
                 <img src="src/icons/email.svg" alt="email" />
               </div>
               <div class="text-descriptionColor">
                 <h5 class="font-semibold text-[17px]">Congratulations</h5>
-                <p class="font-medium text-[15px]">Your admission completed</p>
+                <p class="font-medium text-[12px] sm:text-[15px]">Your admission completed</p>
               </div>
             </div>
 
             <div
-              class="max-w-[330px] flex items-start bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[55%] left-[550px]">
-              <div class="w-[50px] h-[50px] mr-[30px]">
+              class="w-[250px] sm:w-[330px] flex items-start bg-white bg-opacity-[0.8] rounded-[20px] p-[20px] absolute top-[67%] left-[20px] sm:left-[15%] xl:left-[580px]">
+              <div class="w-[50px] h-[50px] mr-[20px] sm:mr-[30px]">
                 <img src="src/images/man-home.png" alt="email" />
               </div>
               <div class="text-descriptionColor">
                 <h5 class="font-semibold text-[17px]">User Experience Class</h5>
-                <p class="font-medium text-[15px] mb-[20px]">Today at 12.00 PM</p>
+                <p class="font-medium text-[12px] sm:text-[15px] mb-[20px]">Today at 12.00 PM</p>
                 <a href="#"
                   class="inline-block bg-black text-white font-semibold rounded-[80px] py-[9px] px-[30px] border-2 border-black hover:bg-transparent hover:text-black duration-200">
                   Join Now
