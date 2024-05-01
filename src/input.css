@@ -130,6 +130,29 @@ img {
   background-image: url("../../src/images/square-blue.png"), url("../../src/images/square-red.png");
   background-repeat: no-repeat;
   background-position: left top, right bottom;
+  background-size: 100px, 180px;
+}
+
+.feature__title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.feature__subtitle {
+  @apply flex items-center font-normal text-[16px] text-brightRedLight
+}
+
+.feature__subtitle::before {
+  content: "";
+  @apply block w-[60px] h-[1px] bg-brightRedLight mr-5
+}
+
+.feature__link {
+  @apply block py-[20px] rounded-[80px] border-2 border-brightRedLight text-brightRedLight w-[200px] text-center
+}
+
+.testimonial:hover svg path {
+  fill: #fff;
 }
 
 @media screen and (max-width: 976px) {
@@ -152,6 +175,14 @@ img {
   .elearn__image {
     background-size: 100px, 150px;
   }
+
+  .feature__title {
+    font-size: 18px;
+  }
+
+  .feature__link {
+    @apply py-[15px] w-[170px] text-[15px]
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -165,6 +196,10 @@ img {
 
   .home__line {
     background-size: contain;
+  }
+
+  .feature__subtitle {
+    @apply text-[12px]
   }
 }
 
